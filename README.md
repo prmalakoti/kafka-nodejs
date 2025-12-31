@@ -1,4 +1,9 @@
 # Kafka Architecture
+<img src="images/image_1.png" width="600" />
+<img src="images/image_2.png" width="600" />
+<img src="images/image_3.png" width="600" />
+
+
 ## What is Apache Kafka?
 
 **Apache Kafka is a distributed event streaming platform used to:**
@@ -119,4 +124,5 @@ Consumer Z → Partition 2
 #### 📌 Allows:
 - Replay data
 - Resume after failure
+
 
