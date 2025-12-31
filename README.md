@@ -125,4 +125,19 @@ Consumer Z → Partition 2
 - Replay data
 - Resume after failure
 
+9️⃣ **KRaft (Modern Kafka – ZooKeeper Replacement)**  
+**What is KRaft?**
+ - KRaft = Kafka Raft Metadata mode
+- Kafka uses the Raft consensus algorithm
+- No ZooKeeper required
+- Metadata is stored inside Kafka itself
+
+**What Changed with KRaft?**
+| ZooKeeper Kafka       | KRaft Kafka          |
+| --------------------- | -------------------- |
+| External ZooKeeper    | No ZooKeeper         |
+| Metadata in ZooKeeper | Metadata in Kafka    |
+| ZK leader election    | Raft leader election |
+| Complex ops           | Simple ops           |
+| Two systems           | One system           |
 
