@@ -1,4 +1,4 @@
-# Kafka Architecture
+# Kafka Architecture daigram
 <img src="images/image_1.png" width="600" />
 <img src="images/image_2.png" width="600" />
 <img src="images/image_3.png" width="600" />
@@ -140,4 +140,5 @@ Consumer Z → Partition 2
 | ZK leader election    | Raft leader election |
 | Complex ops           | Simple ops           |
 | Two systems           | One system           |
+
 
